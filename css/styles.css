@@ -349,14 +349,10 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-  width: 208px;
-  height: 40px;
 }
 
 .social-links-list-footer {
-  display: flex;
   gap: 16px;
-  justify-content: center;
 }
 
 .social-link {
@@ -367,6 +363,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 40px;
 }
 
 .social-link:hover,
@@ -392,26 +389,20 @@ body {
 
 .elipse-icon {
   fill: var(--color-light);
+  max-height: 40px;
+  max-width: 40px;
 }
 
 .elipse {
-  background-color: var(--color-primary-brand);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: flex;
-  padding: 12px 12px;
-  fill: var(--color-white-background);
 }
 
 .elipse-footer {
-  background-color: var(--color-primary-brand);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: flex;
-  padding: 8px 8px;
-  fill: var(--color-white-background);
 }
 
 .elipse-footer:hover,
@@ -556,7 +547,7 @@ body {
 
 .footer-section {
   background-color: var(--color-dark);
-  padding: 100px 0 100px;
+  padding: 100px 0;
 }
 
 .footer-inline {
@@ -592,11 +583,9 @@ body {
 
 .footer-paragraph {
   color: var(--color-white-background);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
